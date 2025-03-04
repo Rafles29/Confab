@@ -8,7 +8,7 @@ using Microsoft.Extensions.Hosting;
 namespace Confab.Bootstrapper
 {
     public class Startup
-    {
+    { 
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddInfrastructure();
